@@ -1,0 +1,47 @@
+
+ body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#container{
+    background-color: #fae8e8;
+    height: auto;
+    width: 600px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 15px; 
+    padding: 10px 10px; 
+    margin: auto;
+    row-gap: 15px;
+    border: 15px solid rgb(251, 141, 141);
+    border-radius: 15px;
+} 
+.in{
+    grid-column-start: 1;
+    grid-column-end: 5 ;
+}
+
+#item{
+    height: 100px;
+    background-color: rgb(255, 166, 166);
+    border: solid 2px transparent;
+    border-radius: 10px;
+    font-family: sans-serif;
+font-weight: bold;
+}
+
+input[type="text"]{
+    height: 70px;
+    width: 589px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.equal{
+    width: 100px;
+    border: 2px solid transparent;
+    background-color: rgb(255, 54, 54);
+    border-radius: 70%;
+}
